@@ -38,7 +38,7 @@
 \parbox{\textwidth}{
 	\vspace{2mm}
 	\noindent
-	\textcolor{MidnightBlue}{
+	\textcolor{Black}{
 {\myfontd {#1}
 	\vspace*{1mm}
 	\hrule}
@@ -49,10 +49,19 @@
 \newcommand{\headline}[1]{{\myfontc{#1}}}
 \newcommand{\setmainfont}[0]{\myfontb}
 
+\newcommand{\dateformat}[1]{\tiny \textit{#1}}
+
 %%%%%%
 
-\newenvironment{resumeblock}[1]{\blocktitle{#1}\begin{tabular}{p{4cm}p{13cm}}}{\end{tabular}}
+%\newenvironment{resumeblock}[1]{\blocktitle{#1}\begin{tabular}{p{4cm}p{13cm}}}{\end{tabular}}
+\newenvironment{resumeblock}[1]{\blocktitle{\bf #1}\begin{tabular}{p{3.2cm}p{13cm}}}{\end{tabular}}
 \newcommand{\resumeitem}[2]{\noindent\raggedright{\textsc{#1}} & #2}
+
+%%%%%%
+
+%\newenvironment{resumeblock}[1]{\blocktitle{#1}\begin{tabular}{p{4cm}p{13cm}}}{\end{tabular}}
+\newenvironment{resumeblockwider}[1]{\blocktitle{\bf #1}\begin{tabular}{p{4.2cm}p{12cm}}}{\end{tabular}}
+\newcommand{\resumeitemwider}[2]{\noindent\raggedright{\textsc{#1}} & #2}
 
 %%%%%%
 
