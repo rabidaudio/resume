@@ -12,8 +12,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-editor");
 
   grunt.initConfig({
-
-    workingDir: '.', //updated by watch
     pkg: grunt.file.readJSON('package.json'),
 
     watch: {
@@ -38,23 +36,13 @@ module.exports = function(grunt) {
         }
       }
     },
-    // jade: {
-    //   html: {
-    //     files: {
-    //       './': ['./resume.jade']
-    //     },
-    //     options: {
-    //       client: false
-    //     }
-    //   }
-    // },
     editor: {
       options: {
         editor: '<%= pkg.editor || process.env.VISUAL || process.env.EDITOR %>'
       },
       src: ['resume.jade']
     },
-    clean: ['<%= workingDir %>/*.log', '<%= workingDir %>/*.aux']
+    clean: ['*.log', '*.aux']
   });
 
   grunt.registerTask('build', ['jade', 'clean', 'open']);
