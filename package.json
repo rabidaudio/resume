@@ -18,7 +18,6 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-editor": "^0.1.0",
     "grunt-open": "^0.2.3",
-    "html5-to-pdf": "^2.2.4",
     "markdown-pdf": "^8.0.0"
   },
   "author": "Charles Julian Knight, charles@rabidaudio.com",
