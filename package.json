@@ -4,7 +4,8 @@
   "description": "",
   "main": "resume.tex",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "pandoc -s -o resume.pdf resume.md"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "grunt-contrib-jade": "^0.14.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-editor": "^0.1.0",
-    "grunt-open": "^0.2.3"
+    "grunt-open": "^0.2.3",
+    "html5-to-pdf": "^2.2.4",
+    "markdown-pdf": "^8.0.0"
   },
   "author": "Charles Julian Knight, charles@rabidaudio.com",
   "license": "GPL",

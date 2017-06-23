@@ -1,6 +1,6 @@
 # Charles Julian Knight
 
-> 330 Valley Green Dr. NE 
+> 330 Valley Green Dr. NE
 > Atlanta, GA 30342
 > 404.316.3749
 > [charles@rabidaudio.com](mailto:charles@rabidaudio.com)
@@ -119,6 +119,6 @@ My solo submission for Static Showdown 2015, a 48-hour hackathon for static apps
 
 ## Links
 
-- [`linkedin.com/in/charlesjulianknight`](https://www.linkedin.com/in/charlesjulianknight)
-- [`github.com/rabidaudio`](https://github.com/rabidaudio)
-- [`rabid.audio/blog`](https://rabid.audio/blog)
+- [`LinkedIn`](https://www.linkedin.com/in/charlesjulianknight)
+- [`GitHub`](https://github.com/rabidaudio)
+- [`Blog`](https://rabid.audio/blog)
